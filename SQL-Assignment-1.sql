@@ -52,7 +52,7 @@ WHERE Color = 'Black' OR Color = 'Blue';
 --Write a query to get a result set on products that begins with the letter S. 
 SELECT p.Name
 FROM Production.Product p
-WHERE p.Name LIKE 'S%'
+WHERE p.Name LIKE 'S%';
 
 /*Write a query that retrieves the columns Name and ListPrice from the Production.Product table. Your result set should look something like the following. Order the result set by the Name column. 
 Name                               ListPrice
@@ -90,4 +90,4 @@ ORDER BY p.Name;
 --Write a query that retrieves unique colors from the table Production.Product. Order the results  in descending  manner.
 SELECT DISTINCT p.Color
 FROM Production.Product p
-ORDER BY p.Color DESC 
+ORDER BY p.Color DESC; 
